@@ -6,7 +6,7 @@ import "../styles/Experiences.scss";
 function Education({ isEdit }) {
   const [experiences, setExperiences] = useState([
     {
-      institution: "Bina Nusantara",
+      institution: "Big Major College",
       major: "Computer Science",
       year: "2020-2024",
       details:

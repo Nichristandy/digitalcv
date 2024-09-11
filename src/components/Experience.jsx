@@ -5,7 +5,7 @@ import "../styles/Experiences.scss";
 function Experience({ isEdit }) {
   const [experiences, setExperiences] = useState([
     {
-      company: "Infinitec",
+      company: "Big IT Solution",
       role: "Front end Developer",
       year: "2020-2024",
       details:
