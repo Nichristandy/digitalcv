@@ -1,0 +1,32 @@
+$base-color : #233A5F;
+
+.outside {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  border: solid 1px black;
+}
+
+.info {
+  box-sizing: border-box;
+  padding: 24px;
+}
+
+.line{
+  padding: 2px 0;
+  width: 100%;
+  background-color: $base-color;
+  margin-bottom: 12px;
+}
+
+.Section {
+  width: 100%;
+  margin-bottom: 24px;
+}

@@ -1,0 +1,25 @@
+$base-color : #233A5F;
+.role{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    box-sizing: border-box;
+    padding: 4px 0px;
+    margin-bottom: 4px;
+
+    .vertical-line{
+        background-color: #233A5F;
+        width: 1px;
+        height: auto;
+    }
+
+    span{
+        font-weight: 600;
+    }
+
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+}

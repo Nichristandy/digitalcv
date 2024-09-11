@@ -1,0 +1,64 @@
+$base-color : #233A5F;
+
+.sidebar{
+    background-color: $base-color;
+    width: 40%;
+    color: white;
+    min-height: 100vh;
+    padding: 12px;
+}
+
+.sidebar{
+    h1{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 12px;
+    }
+
+    h2{
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
+
+    ul{
+        list-style: none;
+        margin-top: 0;
+    }
+
+    .contact-info{
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    
+}
+
+.contact-info{
+    a{
+        padding: 4px 0 4px 4px;
+        background-color: #e5e5e5;
+        color: $base-color;
+        border-radius: 8px;
+        width: 100%;
+        
+    }
+}
+
+.skill-contain{
+    margin-top: 48px;
+
+    h2{
+        margin-bottom: 4px;
+        margin-top: 24px;
+        font-size: 24px;
+    }
+
+    li{
+        margin-bottom: 4px;
+        font-weight: 600 ;
+    }
+}
